@@ -1,0 +1,229 @@
+
+/* .body {
+    position: relative;
+} */
+.rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 806px;
+  height: 1583px;
+  background-color: #2A251F; /* Adjust the background color as needed */
+  border-bottom-right-radius: 40px;
+}
+.overlay {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff; /* Adjust the text color as needed */
+  display: flex;
+  height: 93px;
+  width: 1440px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px 0px 30px;
+}
+
+  /* navbar start*/
+.logo{
+  width: Hug (125px);
+  height: Hug (93px);
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.logo-image{
+    width: 105px;
+    height: 73px;
+  }
+.nav-box{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.main-item-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+    transition: color 0.2s ease;
+}
+.main-item-text:hover{
+    color: #FFC220;
+}
+
+/* social handles */
+.social-handle-cover{
+  height: 57px;
+  width: 57px;
+  background-color: #FFC220;
+  border-radius: 50%;
+  text-align: center;
+  align-items: center;
+}
+.social-icon {
+  height: 37px;
+  width: 37px;
+  color: #333; /* Adjust the icon color as needed */
+  margin-top: 9px;
+  transition: color 0.2s ease;
+}
+.social-icon:hover{
+  color: #fff;
+}
+li{
+  list-style: none;
+  margin: 0 10px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* social handles */
+/* Contact US */
+.contact{
+    width: 216px;
+    height: 46px;
+    background-color: #FFC220;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.contact-icon{
+  height: 30px;
+  width: 30px;
+  color: #333;
+}
+
+.contact-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+/* Navbar end */
+
+
+
+.hero-image-box {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-img {
+  width: 1370px; 
+  height: 688px; 
+}
+
+
+/* about */
+
+.about{
+  position: absolute;
+  top: 150%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  height: 573px;
+  width: 1380px;
+  margin-top: 50px;
+}
+.content{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #fff;
+}
+.about-heading-one{
+  height: 96px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 96px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.about-heading-two{
+  height: 60px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 0px;
+}
+.underline{
+  height: 5px;
+  width: 563px;
+  background-color: #7F7F7F;
+}
+.about-text{
+  height: 302px;
+  width: 563px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-align: justify;
+  margin-bottom: 0px;
+}
+.about-btn{
+  width: 180px;
+  height: 55px;
+  background-color: #FFC220;
+  border-radius: 8px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-btn-text{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.ref-image {
+  position: relative;
+}
+
+.main-icon {
+  position: absolute;
+  top: 50%; /* Adjust as needed */
+  left: 50%; /* Adjust as needed */
+  transform: translate(-50%, -50%);
+  align-items: center;
+  justify-content: center;
+}
+
+.about-map {
+  width: 646px;
+  height: 703px;
+  /* Add any other styles you need for the map */
+}
+
