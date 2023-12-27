@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutIcon(props){
     return(
-        <div>
+        <div className="main-icon">
             <img className="about-icon-img" src={props.imageSrc}></img>
             <p className="about-icon-head">{props.headName}</p>
             <p className="about-icon-text">{props.text}</p>
