@@ -3,7 +3,7 @@
     position: relative;
 } */
 .app-container{
-  overflow-x: hidden ;
+  overflow-x: hidden;
   padding-left: 2rem;
 }
 .rectangle {
@@ -128,7 +128,7 @@ a {
 
 .hero-image-box {
   position: absolute;
-  top: 65%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -145,7 +145,7 @@ a {
 
 .about{
   position: absolute;
-  top: 150%;
+  top: 145%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -284,7 +284,7 @@ a {
 /* WHat we do */
 .what-we-do{
   position: absolute;
-  top: 270%;
+  top: 260%;
   left: 47%;
   transform: translate(-50%, -50%);
   display: flex;
@@ -340,17 +340,17 @@ a {
 /* journey */
 .journey{
   position: absolute;
-  top: 380%;
+  top: 370%;
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
   height: 537px;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 .journey-box{
   position: absolute;
-  width: 100%;
+  width: 1377px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -374,6 +374,7 @@ a {
   align-items: center;
   gap: 19px;
   margin-top: 20px;
+  width: 100%;
 }
 .journey-icon{
   width: 330px;
