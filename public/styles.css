@@ -1,26 +1,23 @@
-
-/* .body {
-    position: relative;
-} */
+body {
+  margin: 0;
+  padding: 0;
+}
 .app-container{
   overflow-x: hidden;
-  padding-left: 2rem;
 }
 .rectangle {
-  position: absolute;
+  position: relative;
   top: 0;
   left: 0;
-  width: 806px;
-  height: 1583px;
+  width: 100%;
+  height: fit-content;
   background-color: #2A251F; /* Adjust the background color as needed */
   border-bottom-right-radius: 40px;
   margin-bottom: 20px;
+  background: linear-gradient(90deg,  #2A251F 50%, white 50%)
 }
 .overlay {
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: flex;
   color: #fff; /* Adjust the text color as needed */
   display: flex;
   height: 93px;
@@ -31,6 +28,12 @@
 }
 
   /* navbar start*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px;
+}
 .logo{
   width: Hug (125px);
   height: Hug (93px);
@@ -56,7 +59,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 35px;
+    gap: 20px;
 }
 .main-item-text{
     font-family: 'Poppins', sans-serif;
@@ -100,14 +103,14 @@ a {
 /* social handles */
 /* Contact US */
 .contact{
-    width: 400px;
-    height: 50px;
     background-color: #FFC220;
-    border-radius: 8px;
+    border-radius: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
+    margin-right: 4px;
+    padding: 0.5rem 1rem;
 }
 .contact-icon{
   height: 30px;
@@ -117,46 +120,41 @@ a {
 
 .contact-text{
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 20px;
     line-height: 36px;
     color: #333333;
+    width: fit-content;
 }
+.contact-text p{
+  margin: 0;
+
+}
+
 /* Navbar end */
 
-
-
 .hero-image-box {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: flex;
   text-align: center;
   width: 100%;
 }
-
 .hero-img {
   /* width: 1370px;  */
   height: 688px; 
 }
 
-
 /* about */
-
 .about{
-  position: absolute;
-  top: 145%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: flex;
   display: flex;
-  height: 573px;
+  height: fit-content;
   width: 100%;
   margin-top: 50px;
-  padding-left: 3rem;
+  padding: 2rem;
 }
 .content{
   width: 50%;
-  height: 100%;
+  height: fit-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -164,13 +162,12 @@ a {
   color: #fff;
 }
 .about-heading-one{
-  height: 96px;
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 64px;
   line-height: 96px;
   color: #FFFFFF;
-  margin-bottom: 0px;
+  margin: 0;
 }
 .about-heading-two{
   height: 60px;
@@ -220,23 +217,22 @@ a {
 
 .main-icon-box {
   position: absolute;
-  top: 50%; /* Adjust as needed */
-  left: 50%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
+  top: 0;
+  right: 0;
   align-items: center;
   justify-content: center;
   display: grid;
   grid-template-rows: repeat(2,1fr);
   grid-template-columns: repeat(2,1fr);
-  width: 50%;
-  height: Hug (571px);
+  width: fit-content;
+  height: 571px;
   gap: 35px;
-  margin-top: 30px;
+  margin-right: 2rem;
 }
 
 .about-map {
-  width: 646px;
   height: 703px;
+  width: 100%;
   /* Add any other styles you need for the map */
 }
 
@@ -282,16 +278,13 @@ a {
 
 /* WHat we do */
 .what-we-do{
-  position: absolute;
-  top: 260%;
-  left: 47%;
-  transform: translate(-50%, -50%);
+  position: flex;
   display: flex;
   height: 850px;
   width: 100%;
   margin-top: 50px;
   display: flex;
-  gap: 4rem;
+  gap: 3rem;
 }
 /* left */
 .wd-img{
@@ -300,25 +293,20 @@ a {
 }
 /* right */
 .wd-content-box{
-  position: relative;
-  width: Hug (563px);
-  height: Hug (640px);
+  width: 100%;
+  padding: 1.5rem;
+  height: fit-content;
+
 }
 .wda-img{
   width: 590px;
   height: 722px;
-  margin-top: 150px;
 }
 .wd-content{
-  position: absolute;
-  top: 10%; /* Adjust as needed */
-  left: 50%; /* Adjust as needed */
-  transform: translate(-50%, -50%);
   align-items: start;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-top: 350px;
 }
 .wd-content-head{
   font-family: 'Poppins', sans-serif;
@@ -338,24 +326,19 @@ a {
 
 /* journey */
 .journey{
-  position: absolute;
-  top: 370%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: flex;
   display: flex;
-  height: 537px;
+  height: fit-content;
   width: 100%;
   margin-top: 0px;
 }
 .journey-box{
-  position: absolute;
-  width: 1377px;
+  position: flex;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 15px;
-  padding-left: 3rem;
 }
 .journey-head{
   font-family: 'Poppins', sans-serif;
@@ -376,7 +359,7 @@ a {
   width: 100%;
 }
 .journey-icon{
-  width: 330px;
+  width: 300px;
   height: 168px;
   background-color: #fff;
   border-top-right-radius: 80px;

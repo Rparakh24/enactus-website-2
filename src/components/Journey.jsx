@@ -4,10 +4,7 @@ import journeyImage from "../images/journeyImg.png";
 function Journey(){
     return(
         <div className="journey">
-                    <div className="journey-img">
-                        <img className="journey-img" src={journeyImage}/>
-                    </div>
-                    <div className="journey-box">
+                    <div className="journey-box" style={{backgroundImage:`url(${journeyImage})`}}>
                         <h1 className="journey-head">OUR JOURNEY</h1>
                         <div className="journey-icon-box">
                             <JourneyIcon head="11 YEARS" text="Lorem ipsum dolor sit amet, consectetur adipiscing"/>

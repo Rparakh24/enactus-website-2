@@ -7,10 +7,12 @@ function Wwd(){
                     <div className="wd-img">
                         <img className="wd-img" src={weDo}/>
                     </div>
-                    <div className="wd-content-box">
-                        <div className="wd-content-img">
+
+
+                    <div className="wd-content-box" style={{backgroundImage: `url(${wd})`}}>
+                        {/* <div className="wd-content-img">
                             <img className="wda-img" src={wd}/>
-                        </div>
+                        </div> */}
                         <div className="wd-content">
                             <h1 className="wd-content-head">WHAT WE DO</h1>
                             <div className="underline wd-underline"></div>

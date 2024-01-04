@@ -7,21 +7,26 @@ import Journey from "./Journey";
 function App(){
     return(
         <div className="app-container">
-            <div className="rectangle"></div>
-                {/* navbar */}
-                <header>
-                   <Nav/> 
-                </header>
-                {/* hero image */}
-                <div className="hero-image-box">
-                    <img className="hero-img" src={heroImage}/>
+            <div className="rectangle ">
+            <header>
+                    {/* navbar */}
+                    <Nav/> 
+                    </header>
+                    {/* hero image */}
+                    <div className="hero-image-box">
+                        <img className="hero-img" src={heroImage}/>
+                    </div>
+                    {/* about us */}
+                    <About />
+            </div>
+                
+                <div>
+                    
+                    {/* What we do */}
+                    <Wwd/>
+                    {/* Our Journey */}
+                    <Journey/>
                 </div>
-                {/* about us */}
-                <About />
-                {/* What we do */}
-                <Wwd/>
-                {/* Our Journey */}
-                <Journey/>
         </div>
 
     )

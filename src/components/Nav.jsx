@@ -6,7 +6,7 @@ import Item from "./Item";
 import Handles from "./Handles";
 function Nav(){
     return(
-        <div className="navbar overlay">
+        <div className="navbar ">
                         <div className="logo">
                             <img className="logo-img" src={logoImage} alt="LOGO"/>
                         </div>
@@ -22,7 +22,7 @@ function Nav(){
             
                         <div className="contact">
                             <FontAwesomeIcon icon={faPhone} className="contact-icon"/>
-                            <a href="#contact" className="contact-text"> CONTACT US</a>
+                            <a href="#contact" className="contact-text"><p>CONTACT US</p></a>
                         </div>
                     </div>
     );
