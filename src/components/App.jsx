@@ -4,6 +4,7 @@ import heroImage from "../images/hero.png";
 import About from "./About";
 import Wwd from "./Wwd";
 import Journey from "./Journey";
+import Project from "./Project";
 function App(){
     return(
         <div className="app-container">
@@ -26,6 +27,9 @@ function App(){
                     <Wwd/>
                     {/* Our Journey */}
                     <Journey/>
+                    {/* Projects */}
+                    <Project/>
+
                 </div>
         </div>
 
