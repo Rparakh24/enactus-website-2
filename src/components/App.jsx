@@ -5,6 +5,8 @@ import About from "./About";
 import Wwd from "./Wwd";
 import Journey from "./Journey";
 import Project from "./Project";
+import Events from "./Events";
+
 function App(){
     return(
         <div className="app-container">
@@ -29,7 +31,7 @@ function App(){
                     <Journey/>
                     {/* Projects */}
                     <Project/>
-
+                    <Events/>
                 </div>
         </div>
 
