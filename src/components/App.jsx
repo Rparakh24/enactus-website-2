@@ -6,6 +6,8 @@ import Wwd from "./Wwd";
 import Journey from "./Journey";
 import Project from "./Project";
 import Events from "./Events";
+import { Footer } from "./Footer";
+import Team from "./Team";
 
 function App(){
     return(
@@ -31,7 +33,11 @@ function App(){
                     <Journey/>
                     {/* Projects */}
                     <Project/>
+                    {/* Events */}
                     <Events/>
+                    {/* Footer */}
+                    <Footer/>
+                    <Team/>
                 </div>
         </div>
 
