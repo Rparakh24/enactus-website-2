@@ -7,14 +7,14 @@ import Journey from "./Journey";
 import Project from "./Project";
 import Events from "./Events";
 import { Footer } from "./Footer";
-import Team from "./Team";
+
 
 function App(){
     return(
         <div className="app-container">
             <div className="rectangle ">
-            <header>
-                    {/* navbar */}
+                    <header>
+                         {/* navbar */}
                     <Nav/> 
                     </header>
                     {/* hero image */}
@@ -25,7 +25,7 @@ function App(){
                     <About />
             </div>
                 
-                <div>
+            <div>
                     
                     {/* What we do */}
                     <Wwd/>
@@ -37,7 +37,6 @@ function App(){
                     <Events/>
                     {/* Footer */}
                     <Footer/>
-                    <Team/>
                 </div>
         </div>
 
