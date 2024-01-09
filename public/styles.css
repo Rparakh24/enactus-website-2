@@ -700,3 +700,47 @@ footer{
   line-height: 30px;
   text-align: justify;
 }
+/* Team */
+.css-1qzevvg{
+  position: absolute !important;
+  top: 50% !important;
+  /* display: flex !important; */
+  justify-content: space-between !important;
+  width: 100vh !important;
+}
+/* Team.css */
+
+/* Adjust the positioning of the arrows */
+/* Team.css */
+
+/* Adjust the positioning of the arrows */
+.react-spring-3d-carousel-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transform: translateY(-50%);
+}
+
+.react-spring-3d-carousel-nav button {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+/* Ensure both arrows are visible */
+.react-spring-3d-carousel-nav .left-arrow,
+.react-spring-3d-carousel-nav .right-arrow {
+  display: inline-block;
+}
+
+.react-spring-3d-carousel-nav .left-arrow {
+  margin-left: 10px; /* Adjust the margin as needed */
+}
+
+.react-spring-3d-carousel-nav .right-arrow {
+  margin-right: 10px; /* Adjust the margin as needed */
+}
