@@ -12,10 +12,10 @@ function Nav(){
                         </div>
                         <div className="nav-box">
                             <ul className="nav">
-                                <Item page="index.html" pageName="HOME"/>
-                                <Item page="about.html" pageName="ABOUT"/>
-                                <Item page="events.html" pageName="EVENT"/>
-                                <Item page="projects.html" pageName="PROJECTS"/>
+                                <Item link="/" name="HOME"/>
+                                <Item link="/#about" name="ABOUT"/>
+                                <Item link="/#event" name="EVENT"/>
+                                <Item link="/projects" name="PROJECTS"/>
                             </ul>
                         </div>
                         <Handles/>

@@ -60,7 +60,7 @@ export default function Events() {
     },
   ];
   return (
-    <div className="events-bg">
+    <div className="events-bg" id="event">
       <div className="events-head-container">
         <h1 className="events-head-content">OUR EVENTS</h1>
       </div>
