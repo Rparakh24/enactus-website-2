@@ -146,12 +146,11 @@ a {
 
 /* about */
 .about{
-  position: flex;
+  /* position: flex; */
   display: flex;
   height: fit-content;
   width: 100%;
   margin-top: 50px;
-  padding: 2rem;
 }
 .content{
   width: 50%;
@@ -160,7 +159,6 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #fff;
 }
 .about-heading-one{
   font-family: 'Poppins', sans-serif;
@@ -182,18 +180,14 @@ a {
 .underline{
   height: 5px;
   width: 563px;
-  background-color: #7F7F7F;
 }
-.about-text{
-  height: 302px;
-  width: 563px;
+.about-content{
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 36px;
   color: #FFFFFF;
   text-align: justify;
-  margin-bottom: 0px;
 }
 .about-btn{
   width: 180px;
@@ -209,7 +203,6 @@ a {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
-  color: #333333;
 }
 
 .ref-image {
@@ -260,7 +253,7 @@ a {
   font-weight: 600;
   font-size: 26px;
   line-height: 39px;
-  color: #2A251F;
+  /* color: #2A251F; */
   margin-bottom: 0px;
   margin-top: 5px;
 }

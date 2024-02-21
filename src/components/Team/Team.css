@@ -1,0 +1,147 @@
+.team-head{
+    color: #FFC220;
+    font-family: "Poppins",sans-serif;
+    font-size: 100px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+}
+.team{
+    display: flex;
+    flex-direction: column;
+}
+.eb-flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+
+}
+.eb-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 270px;
+    height: 410px;
+    margin-bottom: 40px;
+    gap: 15px;
+}
+.eb-hp{
+    gap: 0px;
+}
+.eb-img{
+    height: 200px;
+    width: 100%;
+}
+.eb-head{
+    color: #000000;
+    font-family: "Poppins",sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.eb-pos{
+    color: brown;
+    font-family: "Poppins",sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+.eb-ln-icon{
+    height: 30px;
+    width: 30px;
+    transition: ease 0.2s;
+}
+.eb-ln-icon:hover{
+    color: #FFC220;
+}
+.core{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto  ;
+    width: fit-content;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
+.core-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    flex-direction: column;
+    margin-bottom: 200px;
+}
+.core-main h1{
+    color: #FFC220;
+    font-family: "Poppins",sans-serif;
+    font-weight: 900;
+    font-size: 80px;
+}   
+.core-box{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border: 2px solid #FFC220;
+    border-radius: 25px;
+    padding: 0px 2px;
+}
+.core-name{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Poppins",sans-serif;
+}
+.core-link{
+    text-decoration: none;
+    color: black;
+}
+.linkedin-icon{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+    transition: color 0.2s ease;
+}
+.linkedin-icon:hover{
+  color: #FFC220;
+}
+.faculty-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    gap: 15px;
+
+}
+.faculty-box h1{
+    color: #FFC220;
+    font-family: "Poppins",sans-serif;
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
+    text-transform: uppercase;
+
+}
+.faculty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.f-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    width: 270px;
+    height: fit-content;
+    margin-bottom: 40px;
+}

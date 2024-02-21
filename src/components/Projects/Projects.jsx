@@ -1,6 +1,5 @@
 import React from 'react';
 import './Projects.css';
-import Impact from './Impact';
 import about_img from './assets/about_bg.svg';
 import Head from './Head';
 import sdg from './assets/sdg.svg';

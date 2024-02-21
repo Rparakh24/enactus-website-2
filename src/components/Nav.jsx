@@ -14,7 +14,7 @@ function Nav(){
                             <ul className="nav">
                                 <Item link="/" name="HOME"/>
                                 <Item link="/#about" name="ABOUT"/>
-                                <Item link="/#event" name="EVENT"/>
+                                <Item link="/team" name="TEAM"/>
                                 <Item link="/projects" name="PROJECTS"/>
                             </ul>
                         </div>

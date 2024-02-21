@@ -1,12 +1,10 @@
 import React from 'react';
-import Team from './Team';
 import Events from './Events';
 import Journey from './Journey';
 import Wwd from './Wwd';
 import About from './About';
 import heroImage from '../images/hero.png';
 import ProjectSlider from './ProjectSlider';
-
 const Home = () => {
   return (
     <div>
@@ -28,15 +26,8 @@ const Home = () => {
         {/* Events */}
         <Events />
         {/* Team */}
-        <Team
-          offset={3}
-          showArrows={true}
-          height="500px"
-          width="30%"
-          margin="0 auto"
-        />
-      </div>
-    </div>
+        </div>
+        </div>
   );
 };
 
