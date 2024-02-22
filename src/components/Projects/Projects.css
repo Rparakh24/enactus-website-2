@@ -2,7 +2,7 @@
     display: flex;
 }
 .head{
-    height: 100vh;
+    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -41,7 +41,7 @@
 
 .about{
     display: flex;
-    height: 100vh;
+    height: 100%;
 }
 .about-content-box{
     width: 70%;
@@ -80,13 +80,13 @@
     font-weight: 300;
 }
 .about-img-box{
-    height: 100vh;
+    height: 100%;
 }
 .about-img{
-    height: 100vh;
+    height: 100%;
 }
 .impact{
-    height: 100vh;
+    height: 100%;
     background-color: #252525;
     background-image: url("./assets/Impact.jpg");
     background-size: cover;
