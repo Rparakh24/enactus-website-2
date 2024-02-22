@@ -52,6 +52,10 @@
     margin-top: 10px;
     text-transform: uppercase;
 }
+.link-box{
+    display: flex;
+    gap: 20px;
+}
 .eb-ln-icon{
     height: 30px;
     width: 30px;

@@ -1,7 +1,7 @@
 import React from 'react'
-import logo from '../images/LOGO.png'
-import Handles from './Handles'
-import thapar from '../images/thapar.svg'
+import logo from './Home/images/LOGO.png'
+import Handles from './Home/Handles'
+import thapar from './Home/images/thapar.svg'
 export const Footer = () => {
   return (
     <div>

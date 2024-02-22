@@ -3,7 +3,7 @@ import Events from './Events';
 import Journey from './Journey';
 import Wwd from './Wwd';
 import About from './About';
-import heroImage from '../images/hero.png';
+import heroImage from './images/hero.png';
 import ProjectSlider from './ProjectSlider';
 const Home = () => {
   return (

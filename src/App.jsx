@@ -1,8 +1,8 @@
 import React from 'react';
-import Nav from './components/Nav';
+import Nav from './components/Nav'
 import { Footer } from './components/Footer';
 import { Route, Routes } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/Home/Home';
 import Projects from './components/Projects/Projects';
 import Team from "./components/Team/Team";
 

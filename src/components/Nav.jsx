@@ -1,9 +1,9 @@
 import React from "react";
-import logoImage from "../images/LOGO.png";
+import logoImage from './Home/images/LOGO.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faPhone } from "@fortawesome/free-solid-svg-icons";
-import Item from "./Item";
-import Handles from "./Handles";
+import Item from "./Home/Item";
+import Handles from "./Home/Handles";
 function Nav(){
     return(
         <div className="navbar ">

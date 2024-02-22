@@ -1,6 +1,6 @@
 import React from "react";
-import weDo from "../images/weDo.png";
-import wd from "../images/wd.png";
+import weDo from "./images/weDo.png";
+import wd from "./images/wd.png";
 function Wwd(){
     return(
         <div className="what-we-do">

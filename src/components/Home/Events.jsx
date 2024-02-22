@@ -2,10 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import crCover from '../images/cr-cover.jpg';
-import deepCover from '../images/deepotsav-cover.jpg';
-import sbcCover from '../images/sbc-cover.jpg';
-
+import crCover from './images/cr-cover.jpg';
+import deepCover from './images/deepotsav-cover.jpg';
+import sbcCover from './images/sbc-cover.jpg';
 export default function Events() {
   var settings = {
     dots: true,

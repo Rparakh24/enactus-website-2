@@ -1,6 +1,6 @@
 import React from "react";
 import JourneyIcon from "./JourneyIcon";
-import journeyImage from "../images/journeyImg.png";
+import journeyImage from "./images/journeyImg.png";
 function Journey(){
     return(
         <div className="journey">

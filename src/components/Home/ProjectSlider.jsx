@@ -1,8 +1,8 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css';
-import nyra from "../images/nyra-cover.svg";
-import atrangi from "../images/atrangi-cover.svg";
+import nyra from "./images/nyra-cover.svg";
+import atrangi from "./images/atrangi-cover.svg";
 
 const indicators = (index) => <div className="indicator"></div>;
 

@@ -1,9 +1,9 @@
 import React from "react";
-import aboutMap from "../images/aboutMap.png"
+import aboutMap from "./images/aboutMap.png"
 import AboutIcon from "./AboutIcon";
-import eye from "../images/eye.png";
-import process from "../images/process.png";
-import action from "../images/action.png";
+import eye from "./images/eye.png";
+import process from "./images/process.png";
+import action from "./images/action.png";
 function About(){
     return (
       <div className="about" id="about">
