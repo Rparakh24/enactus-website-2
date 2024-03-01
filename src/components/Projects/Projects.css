@@ -1,9 +1,13 @@
 .landing-page{
     display: flex;
+    
+}
+.container{
+    
 }
 .head{
-    height: 100%;
     width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +45,6 @@
 
 .about{
     display: flex;
-    height: 100%;
 }
 .about-content-box{
     width: 70%;
@@ -68,7 +71,6 @@
     width: 70%;
     height: 3px;
     background-color: #ffffff;
-    margin: 10px 0px;
 
 }
 .about-content{
@@ -79,14 +81,11 @@
     line-height: 36px;
     font-weight: 300;
 }
-.about-img-box{
-    height: 100%;
-}
+
 .about-img{
     height: 100%;
 }
 .impact{
-    height: 100%;
     background-color: #252525;
     background-image: url("./assets/Impact.jpg");
     background-size: cover;
@@ -129,6 +128,8 @@
     color: #ffffff;
     justify-content: justify;
 }
+
+/* impact */
 .impact-content-box{
     padding-top: 8rem;
     width: 909px;

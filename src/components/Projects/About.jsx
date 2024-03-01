@@ -8,9 +8,8 @@ function About(props){
                 <div className='underline'></div>
                 <div className="about-content-box"><p className='about-content'>{props.content}</p></div>   
               </div>
-            <div className='about-img-box'>
               <img className = "about-img" src={props.img} alt='' />
-            </div>
+              
           </div>
     )
 }

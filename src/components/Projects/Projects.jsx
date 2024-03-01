@@ -8,7 +8,7 @@ import SDG from './SDG';
 import ImpactB from './ImpactB';
 const Projects = () => {
   return (
-    <div className="container">
+    <div className='container'> 
       <div className="landing-page">
         <Head className="head one" letter="A" />
         <Head className="head two" letter="T" />
