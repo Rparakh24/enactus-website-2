@@ -10,9 +10,7 @@ function App() {
   return (
     <div className="app-container">
       {/* navbar */}
-      <div className="rectangle">
-        <Nav />
-      </div>
+      <Nav />
       {/* Defining routes path and rendering components as element */}
       <Routes>
         <Route path="/" element={<Home />} />

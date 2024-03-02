@@ -26,8 +26,8 @@ const Home = () => {
         {/* Events */}
         <Events />
         {/* Team */}
-        </div>
-        </div>
+      </div>
+    </div>
   );
 };
 
