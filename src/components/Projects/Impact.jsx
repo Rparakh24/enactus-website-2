@@ -4,10 +4,10 @@ function Impact(props){
     return(
         <div className="impact-box">
             <div className="impact-subbox">
-                <p className="impact-number">{props.number}</p>
+                <div className="impact-number">{props.number}</div>
                 <div className="impact-text">
-                    <p className="impact-text-head">{props.texthead}</p>
-                    <p className="impact-text-content">{props.text}</p>
+                    <div className="impact-text-head">{props.texthead}</div>
+                    <div className="impact-text-content">{props.text}</div>
                 </div>
             </div>
             <div className="underline"></div>

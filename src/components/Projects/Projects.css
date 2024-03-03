@@ -88,11 +88,7 @@
 .about-img{
     height: 100%;
 }
-.impact{
-    background-color: #252525;
-    background-image: url("./assets/Impact.jpg");
-    background-size: cover;
-}
+
 .sdg{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -107,7 +103,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding: 5rem 2rem;
 }
 .sdg-head{
@@ -115,6 +111,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 270px;
+    margin: 0;
+    padding: 0;
     color: #ffffff;
 }
 .sdg-subhead{
@@ -122,6 +120,8 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 48px;
+    margin: 0;
+    padding: 0;
 }
 .sdg-content{
     width: 75%;
@@ -131,53 +131,78 @@
     line-height: 16px;
     color: #ffffff;
     justify-content: justify;
+    margin-top: 10px;
 }
 
-/* impact */
+
+.impact{
+    display: flex;
+    position: relative;
+}
+.g-bg{
+    background-color: #252525;
+    width: 30%;
+}
+.lb-bg{
+    background-color: #000000d0;
+    width: 10%;
+}
+.b-bg{
+    background-color: black;
+    width: 10%;
+}
+.impact-img-box{
+    width: 50%;
+    height: 100vh;
+}
 .impact-content-box{
-    padding-top: 8rem;
-    width: 909px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+}
+.impact-content-box{
     height: fit-content;
+    width: 60%;
+    background-color: #E89F4A;
+    padding: 4.5rem 1rem;
 }
 .impact-content{
-    background-color: #E89F4A;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2rem 3rem;
 }
 .impact-head{
     font-size: 128px;
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
-    color: white;
-    line-height: 96px;
     font-weight: 800;
+    text-align: center;
+    margin-bottom: 0px;
+    line-height: 96px;
+    margin: 0;
 }
 .impact-subhead{
     font-size: 32px;
-    font-family: 'Poppins', sans-serif;
     color: black;
-    line-height: 60px;
+    font-family: 'Poppins', sans-serif;
     font-weight: 800;
-    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
 .impact-box{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    width: 90%;
+
 }
 .impact-subbox{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-
+    gap: 30px;
 }
 .impact-text{
-    display: flex;
-    flex-direction: column;
+
 }
 .impact-number{
     font-size: 96px;
@@ -190,15 +215,16 @@
 }
 .impact-text-head{
     font-size: 24px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    line-height: 36px;
+    font-family: "Poppins",sans-serif;
     font-weight: 800;
+    color: white;
 }
 .impact-text-content{
+    font-family: "Poppins",sans-serif;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
-    color: white;
-    line-height: 16px;
     font-weight: 400;
+    color: #ffffff;
+}
+.impact-box .underline{
+    width: 100%;
 }
