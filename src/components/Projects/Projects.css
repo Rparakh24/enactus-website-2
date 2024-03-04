@@ -92,6 +92,12 @@
 .sdg{
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    position: relative;
+}
+.sdgs-img{
+    position: absolute;
+    left: 23%;
+    top: 10%;
 }
 .sdg-img{
     grid-column: span 1/ span 1;
@@ -111,7 +117,6 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 270px;
-    margin: 0;
     padding: 0;
     color: #ffffff;
 }
@@ -120,11 +125,11 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 48px;
-    margin: 0;
+    margin-left: 300px;
     padding: 0;
 }
 .sdg-content{
-    width: 75%;
+    width: 54%;
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
@@ -132,6 +137,7 @@
     color: #ffffff;
     justify-content: justify;
     margin-top: 10px;
+    margin-left: 300px;
 }
 
 
