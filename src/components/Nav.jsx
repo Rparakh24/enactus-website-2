@@ -4,9 +4,17 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faPhone } from "@fortawesome/free-solid-svg-icons";
 import Item from "./Home/Item";
 import Handles from "./Home/Handles";
+import { Link, useLocation } from "react-router-dom";
+
 function Nav(){
+  const location = useLocation();
+
+  // Conditionally render the navbar based on the current route
+  if (location.pathname === "/projects") {
+    return null; // If on the projects page, don't render the navbar
+  }
     return (
-      <div className="navbar ">
+      <div className="navbar" >
         <div className="nav-box">
           <div className="logo">
             <img className="logo-img" src={logoImage} alt="LOGO" />

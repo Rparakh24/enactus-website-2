@@ -7,9 +7,11 @@ import About from './About';
 import SDG from './SDG';
 import ImpactB from './ImpactB';
 import SDGs from './assets/SDGs.svg';
+import Nav from './Nav';
 const Projects = () => {
   return (
     <div className="container">
+      <Nav/>
       <div className="landing-page">
         <Head className="head one" letter="A" />
         <Head className="head two" letter="T" />

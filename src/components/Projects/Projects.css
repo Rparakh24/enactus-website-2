@@ -6,6 +6,7 @@
     position: relative;
     width: 100%;
     height: fit-content;
+    position: relative;
 }
 .head{
     grid-column: span 1 / span 1;
@@ -15,6 +16,17 @@
     justify-content: center;
     align-items: center;
 }
+.p-nav-ul{
+    position: absolute;
+    top: 10px;
+    left: 30%;
+    display: flex;
+    gap: 100px;
+}
+.p-nav-item{
+    color: white;
+}
+
 .head-text{
     font-size: 240px;
     color: rgb(255, 255, 255);

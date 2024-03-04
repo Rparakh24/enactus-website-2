@@ -37,7 +37,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  /* padding: 1rem; */
   /* background-color: #2A251F; Adjust the background color as needed */
   background: linear-gradient(90deg, #2a251f 50%, white 50%);
 }
@@ -144,7 +144,7 @@ a {
 }
 .hero-img {
   /* width: 1370px;  */
-  height: auto;
+  height: 85vh;
   width: 90%;
 }
 
@@ -203,18 +203,19 @@ a {
   text-align: justify;
 }
 .about-btn {
-  width: 180px;
-  height: 55px;
+  width: 140px;
+  height: 45px;
   background-color: #ffc220;
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 10px;
 }
 .about-btn-text {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 36px;
 }
 
@@ -377,8 +378,9 @@ a {
   align-items: center;
 }
 .j-icon {
-  height: 93px;
-  width: 93px;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 63px;
   background-color: #ffc220;
   border-radius: 50%;
   text-align: center;
@@ -469,6 +471,7 @@ a {
 }
 
 .each-slide-effect .slide-name {
+  font-family: "Poppins",sans-serif;
   padding: 20px;
   font-size: 7rem;
   text-transform: uppercase;
@@ -495,9 +498,11 @@ a {
   width: 60%;
   font-size: 1.25rem;
   font-weight: normal;
+  font-family: "Poppins",sans-serif;
 }
 
 .each-slide-effect .learn-more {
+  font-family: "Poppins",sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -566,12 +571,14 @@ a {
 
 .events-head-content {
   color: black;
+  font-family: "Poppins",sans-serif;
+
   font-weight: 700;
   font-size: 4rem;
 }
 
 .events-carousel-container {
-  padding: 3rem;
+  padding: 0rem 12rem 12rem 12rem;
 }
 
 .events-slider-container {
@@ -637,9 +644,9 @@ footer {
   display: flex;
   justify-content: space-between;
   height: fit-content;
-  padding: 2rem;
   background-color: #2a251f;
   color: #fff;
+  padding: 0.75rem;
 }
 .enact-img-box {
   display: flex;
@@ -653,7 +660,7 @@ footer {
 }
 
 .v-line {
-  height: auto;
+  height: 90;
   width: 1px;
   background-color: #fff;
   margin: 0 20px;
@@ -698,20 +705,21 @@ footer {
 .address {
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  /* gap: 15px; */
   justify-content: center;
   align-items: center;
 }
 .add-div {
   display: flex;
   flex-direction: column;
-  gap: 5px;
+  /* gap: 5px; */
   justify-content: center;
   align-items: center;
   width: 100%;
 }
 .add-img {
   width: 100%;
+  border-radius: 30px;
 }
 .add-head {
   font-family: 'Poppins', sans-serif;
@@ -732,7 +740,7 @@ footer {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: 400;
-  line-height: 30px;
+  /* line-height: 30px; */
   text-align: justify;
 }
 /* Team */
