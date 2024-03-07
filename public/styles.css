@@ -38,8 +38,14 @@ body {
   justify-content: space-between;
   align-items: center;
   /* padding: 1rem; */
+  background-color: #2a251f;
   /* background-color: #2A251F; Adjust the background color as needed */
+  /* background: linear-gradient(90deg, #2a251f 50%, white 50%); */
+  
+}
+.navbar-home{
   background: linear-gradient(90deg, #2a251f 50%, white 50%);
+
 }
 .logo {
   max-width: 20%;

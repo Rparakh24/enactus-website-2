@@ -14,7 +14,9 @@ function Nav(){
     return null; // If on the projects page, don't render the navbar
   }
     return (
-      <div className="navbar" >
+      <div
+        className={`navbar ${location.pathname === '/' ? 'navbar-home' : ''}`}
+      >
         <div className="nav-box">
           <div className="logo">
             <img className="logo-img" src={logoImage} alt="LOGO" />
