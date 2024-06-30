@@ -68,7 +68,7 @@ export default function Events() {
         <Slider className="events-slider-container" {...settings}>
           {events.map((item, index) => (
             <div key={index} className="events-card">
-              <div style={{ backgroundImage: `url(${item.image})` }}>
+              <div className="event-slide-img" style={{ backgroundImage: `url(${item.image})` }}>
                 <div className="slide-linear">
                   <div className="events-card-content">
                     <div className="events-card-name">{item.name}</div>
