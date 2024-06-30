@@ -26,7 +26,10 @@ const ProjectSlider = () => {
       <Slide vertical slidesToShow={1} indicators={indicators}>
         {projects.map((item, index) => (
           <div key={index} className="each-slide-effect">
-            <div style={{ backgroundImage: `url(${item.image})` }}>
+            <div className='slide-image' style={{ backgroundImage: `url(${item.image})`, height: "100vh",
+        width: "100vw",
+        backgroundSize: "cover",
+        backgroundRepeat: "no-repeat" }}>
               <div className="slide-radial">
                 <div className="slide-content">
                   <div className="slide-name">

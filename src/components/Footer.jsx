@@ -33,18 +33,21 @@ export const Footer = () => {
       <div className="v-line"></div>
       <div className="quick-link">
         <p className="qlink-head">Quick Links</p>
-        <a className="qlinks" href="#">
-          Atrangi
-        </a>
-        <a className="qlinks" href="#">
-          Projects
-        </a>
-        <a className="qlinks" href="#">
-          Events
-        </a>
-        <a className="qlinks" href="#">
-          Team
-        </a>
+        <div className="qlink-box">
+          <a className="qlinks" href="#">
+            Atrangi
+          </a>
+          <a className="qlinks" href="#">
+            Projects
+          </a>
+          <a className="qlinks" href="#">
+            Events
+          </a>
+          <a className="qlinks" href="#">
+            Team
+          </a>
+
+        </div>
         <Handles />
       </div>
       <div className="v-line"></div>
